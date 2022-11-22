@@ -22,3 +22,17 @@ number = int(input('enter any amount: '))
 
 user(name)
 amount(number)
+
+
+def user2(name):
+    print(f'Hello, {name}')
+
+def amount(amount):
+    amount *= 700
+    print(f'You have {amount} euros')
+
+name = input('What is your name: ')
+number = int(input('enter any amount: '))
+
+user2(name)
+amount(number)
